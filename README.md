@@ -53,9 +53,10 @@ Include /private/etc/apache2/users/*.conf
 ```
 sudo apachectl restart
 ```
-Navigate to http://localhost/~$USER
+Navigate to http://localhost/~username
+Where 'username' has to be changed.
 You should see an index with the ~/Sites folders.
-Also you can try: http://localhost/~$USER/folder-name 
+Also you can try: http://localhost/~username/folder-name 
 
 
 # Configuring Virtual Hosts { Recommended }
